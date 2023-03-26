@@ -1,0 +1,26 @@
+.Dice {
+   border: solid 2px gray;
+   padding: 1em 0 2em 0;
+   text-align: center;
+   margin: 1em auto auto;
+   border-radius: 10px;
+   width: 40em;
+   box-shadow: 5px 8px 10px rgba(0,0,0,0.75);
+}
+
+.Dice h1 {
+   text-align: center;
+}
+
+button {
+   display: flexbox;
+   align-self: center;
+   justify-self: flex-end;
+   text-align: center;
+   background-color: goldenrod;
+   border: solid darkgoldenrod;
+   border-radius: 15px;
+   height: 80px;
+   width: 80px;
+   margin-top: 30px;
+}
