@@ -10,7 +10,7 @@ const Circle = ({color, idx, x, y, changePosition}) => {
          position: 'absolute',
          top: `${y}vh`,
          left: `${x}vw`}}
-      onClick={() => changePosition(idx)}>
+      onMouseOver={() => changePosition(idx)}>
          {idx + 1}
       </div>
    )

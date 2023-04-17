@@ -12,7 +12,7 @@
    text-align: center;
 }
 
-button {
+.Dice button {
    display: flexbox;
    align-self: center;
    justify-self: flex-end;

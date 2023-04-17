@@ -11,8 +11,8 @@ const Dice = ({ numDice = 6, title = 'Main Game', maxVal = 20 }) => {
    //    dice.push(num)
    // }
    return (
-      <div className='Dice'>
-         <h1>{title}</h1>
+      <div className='Dice card-body'>
+         <h1 className="display-1">{title}</h1>
          <div>
          {numbers.map(num => <Die val={num} />)}
          </div>
